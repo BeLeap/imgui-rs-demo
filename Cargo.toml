@@ -1,9 +1,14 @@
 [package]
 name = "imgui-rs-demo"
-version = "0.1.0"
+version = "0.0.1"
 authors = ["Changseo Jang <changseo.jang@riiid.co>"]
 edition = "2018"
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
+imgui = "0.7.0"
+sdl2 = "*"
+imgui-sdl2 = "*"
+gl = "*"
+imgui-opengl-renderer = "*"
